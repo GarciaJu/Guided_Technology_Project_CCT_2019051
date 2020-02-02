@@ -1,0 +1,198 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.nav-custom {
+    background-color: #831392;
+    color: #fff;
+}
+
+.nav-custom .navbar-brand, .nav-custom .navbar-brand:hover {
+    color: #fff !important;
+    font-size: 20pt;
+}
+
+.nav-custom .navbar-toggler {
+    background-color: #831392;
+    border-color: #ff935c;
+    border-width: 1.2px;
+}
+
+.circle {
+    background-color: #ff935c;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.main-container {
+    padding-top: 30px;
+    color:rgb(46, 46, 46) !important;
+    padding-bottom: 30px;
+}
+
+.main-container .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fbeaf2;
+}
+
+.main-container .dropdown {
+    margin-top: 30px;
+    width: 200px;
+}
+
+.main-container .other-parameters {
+    display: none;
+}
+
+.main-container .total-indicator {
+    display:block;
+}
+
+.right-buttons {
+    float:right;
+    width: 150px;
+    margin-left: 5px;
+}
+
+.btn-primary {
+    background-color: #a72461;
+    border-color: #a72461;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14pt;
+}
+
+.btn-primary:hover {
+    background-color:#db5795;
+    border-color:#db5795;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    /*box-shadow: 0 0 0 .2rem rgba(235, 43, 69, 0.5)*/
+    background-color: #a72461;
+    border-color: #a72461;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    /*color: #212529;*/
+    color: white;
+    background-color:#edabca;
+    border-color:#edabca;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: white;
+    background-color: #7e1b49;
+    border-color: #7e1b49;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    /*box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)*/
+    box-shadow: 0 0 0 0;
+}
+
+#firstpage .btn-group-vertical {
+    width: 100%;
+    max-width: 600px;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #2e2e2e;
+    border-color: #93a724;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.btn-secondary:hover {
+    color: #2e2e2e;
+    background-color:rgb(247, 247, 247);
+    border-color:#db5795;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+    /*box-shadow: 0 0 0 .2rem rgba(235, 43, 69, 0.5)*/
+    color: #2e2e2e;
+    background-color: #fff;
+    border-color: #a72461;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+    /*color: #212529;*/
+    background-color:#edabca;
+    border-color:#edabca;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show>.btn-secondary.dropdown-toggle {
+    color: #2e2e2e;
+    background-color: rgb(214, 213, 213);
+    border-color: #7e1b49;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+    /*box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)*/
+    box-shadow: 0 0 0 0;
+}
+
+.nav-item .nav-link{
+    color: #fff !important;
+}
+
+.dropdown-item:focus {
+    background-color:#edabca;
+}
+
+#step3, #sbid, #smgmt, #nservice, #sbid-results, #editservice, #calendar, #date-mgmt, #step2 {
+    display: none;
+}
+
+.main-container #id-ig {
+    max-width: 600px;
+}
+
+#sbid #sbid-results p {
+    margin-left:30px;
+}
+
+#smgmt a, #date-mgmt a {
+    font-size: 14pt;
+    color: #2e2e2e;
+}
+
+.fc-button-primary {
+    background-color: #7e1b49 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+

@@ -1,0 +1,44 @@
+.product-holder {
+    box-shadow: 0px 6px 13px -7px rgba(184,184,184,0.63) ;
+    cursor:pointer;
+}
+
+.product-img {
+    border-radius: 8px;
+}
+
+.product-price {
+    text-align: right;
+    font-size: 16pt;
+}
+
+.page-link {
+    color: #dc5353;
+    border: 1px solid #dee2e6;
+}
+
+.page-item.active .page-link {
+    background-color: #dc5353 !important;
+    border-color: #dc5353 !important;
+}
+
+.circle-color {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-right: 10px;
+    border: 1.5px solid #000;
+}
+
+.brown1 {
+    background-color: rgb(204, 1, 1);
+}
+
+.black {
+    background-color: rgb(99, 99, 99);
+}
+
+.white1 {
+    background-color: whitesmoke;
+}
